@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<div class="container">  
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script>
+        let sound = new  Audio('./sounds/Sueños II (Calidad buena) - Ed Maverick..mp3')
+                $(document).ready(function () {
+    $('.container').mouseenter(function () {
+        sound.play();
+        $('.card').stop().animate({
+            top: '-90px'
+        }, 'slow');
+    }).mouseleave(function () {
+        $('.card').stop().animate({
+            top: 0
+        }, 'slow');
+        
+    });
+});
+    </script>
+    <title>
+        Mylove
+    </title>
+</head>
+
+<body>
+    <div class="header-text">
+        <h1>Hace mucho soñe con una niña que era muy bonita y me senti tan feliz, nunca supe quien era ni de donde salio. ahora que estoy contio se que aquella niña hermosa eras tu. tu eres la niña de mis sueños 💗 <h1>
+    </div>
+
+    <div class="container">  
+        <div class="valentines">
+          <div class="envelope"></div>
+          <div class="front"></div>
+          <div class="card">
+          <div class="text">Will you be</br>My Valentine,</br>My precious?</div>
+          <div class="heart"</div>
+          </div>
+          <div class="hearts">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+          </div>
+        </div>
+        </div>
+        <div class="shadow"></div>
+        </div>
+
+        
+</body>
+</html>
